@@ -46,6 +46,7 @@ The dataset consists of 1,804,874 data points, with each datapoint having 106 fe
 1. `comment_-text`: raw sentences of online comments
 
 **Target Variable**
+
 Type
 1. `target`: whether the comment is toxic or not
 
@@ -59,5 +60,6 @@ Sube Type
 
 
 **Variable for Weight**
+
 'male', 'female','homosexual_gay_or_lesbian', 'christian', 'jewish', 'muslim', 'black', 'white', 'psychiatric_or
 mental_illness'
