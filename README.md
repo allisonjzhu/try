@@ -26,26 +26,38 @@ Template code is provided in the `Final project_NLP.ipynb` notebook file. You wi
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory and run the following commands:
 
+Model building
 ```bash
-ipython notebook boston_housing.ipynb
+ipython notebook Final project_NLP.ipynb
 ```  
-or
+(data exploratory)
 ```bash
-jupyter notebook boston_housing.ipynb
+jupyter notebook explore data nlp.ipynb
 ```
 
-This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
+The dataset consists of 1,804,874 data points, with each datapoint having 106 features. This dataset is the train dataset found on the https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data. This project splitted the train dataset online into training and testing datasets to build model without using the testing dataset online.
 
 **Features**
-1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
+1. `comment_-text`: raw sentences of online comments
 
 **Target Variable**
-4. `MEDV`: median value of owner-occupied homes
+Type
+1. `target`: whether the comment is toxic or not
+
+Sube Type
+1. `severe_toxicity`
+2. `obscene`
+3. `identity_attack`
+4. `insult`
+5. `threaty`
+6. `sexual_explici`
+
+
+**Variable for Weight**
+'male', 'female','homosexual_gay_or_lesbian', 'christian', 'jewish', 'muslim', 'black', 'white', 'psychiatric_or
+mental_illness'
