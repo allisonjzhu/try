@@ -43,7 +43,7 @@ jupyter notebook explore data nlp.ipynb
 The dataset consists of 1,804,874 data points, with each datapoint having 106 features. This dataset is the train dataset found on the https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data. This project splitted the train dataset online into training and testing datasets to build model without using the testing dataset online.
 
 **Features**
-1. `comment_-text`: raw sentences of online comments
+1. `comment_text`: raw sentences of online comments
 
 **Target Variable**
 
